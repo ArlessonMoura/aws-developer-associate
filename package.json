@@ -1,0 +1,25 @@
+{
+  "name": "aws-developer-manual",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "dompurify": "^3.4.12",
+    "highlight.js": "^11.11.1",
+    "marked": "^18.0.7",
+    "mermaid": "^11.16.0"
+  },
+  "devDependencies": {
+    "vite": "^7.x.x"
+  }
+}
