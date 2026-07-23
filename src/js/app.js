@@ -251,7 +251,7 @@ async function loadDocument(doc) {
       throw new Error('Documento inválido.');
     }
 
-    const response = await fetch(`/src/docs/${doc}`);
+    const response = await fetch(`${import.meta.env.BASE_URL}docs/${doc}`);
 
     if (!response.ok) {
       throw new Error(`Não foi possível carregar "${doc}".`);
