@@ -120,13 +120,14 @@ function generateTOC() {
 
   headings.forEach((heading) => {
     if (!heading.id) {
-      heading.id = heading.textContent
+      const slug = heading.textContent
         .toLowerCase()
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
         .replace(/[^\w\s-]/g, '')
         .trim()
         .replace(/\s+/g, '-');
+      heading.id = `sec-${slug}`;
     }
 
     const li = document.createElement('li');
@@ -157,8 +158,9 @@ function activateTOC() {
 
         links.forEach((link) => link.classList.remove('active'));
 
-        const link = document.querySelector(`#toc a[href="#${entry.target.id}"]`);
-
+        const link = document.querySelector(
+          `#toc a[href="${CSS.escape('#' + entry.target.id)}"]`,
+        );
         link?.classList.add('active');
       });
     },
