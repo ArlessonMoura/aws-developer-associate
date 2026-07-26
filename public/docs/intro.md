@@ -1,5 +1,4 @@
-#Olá!
-# Manual de Mentoria para Certificação AWS Certified Developer – Associate (DVA-C02)
+# Olá TESTE!!!!!  Manual de Mentoria para Certificação AWS Certified Developer – Associate (DVA-C02)
 
 > **Objetivo:** criar um método altamente previsível para que, mesmo sem experiência profunda em AWS, um candidato seja capaz de **passar na certificação AWS Certified Developer – Associate (DVA-C02)** e, principalmente, **tornar-se um desenvolvedor cloud competente**.
 
