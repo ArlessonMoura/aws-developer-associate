@@ -55,7 +55,7 @@ O maior diferencial para a prova é raciocinar como a AWS avalia soluções. Em 
 
 # Método 80/20
 
-A prova possui aproximadamente 30 serviços citados.
+A prova possui aproximadamente 50 serviços citados.
 
 Mas apenas cerca de 15 aparecem constantemente.
 
